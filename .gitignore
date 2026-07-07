@@ -1,0 +1,30 @@
+# Modèles YOLO (trop gros pour GitHub)
+*.pt
+*.onnx
+*.weights
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Environnement virtuel
+venv/
+env/
+.env
+
+# Données et résultats
+data/*.csv
+data/*.json
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
